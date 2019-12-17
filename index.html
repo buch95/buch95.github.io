@@ -1,7 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="wrapper">
+        <button id="next">></button>
+        <button id="prev"><</button>
+        <div id="flipbook">
+            <div class="page"> <img src="img/frontCover.jpg"></div>
+            <div class="page"></div>
+            <div class="page"> <img src="img/page1.jpg"></div>
+            <div class="page"> <img src="img/page2.jpg"></div>
+            <div class="page"> <img src="img/page3.jpg"></div>
+            <div class="page"> <img src="img/page4.jpg"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="js/turn.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
